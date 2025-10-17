@@ -1,0 +1,5 @@
+The interlaced video comprises two types of fields in the sequence, one is the odd and another is the even field. The de-interlacing process is to convert the interlaced video into the non-interlaced form as shown in Fig. 1. The simplest method is intra-field interpolation, which use the existing pixels in the field to generate the empty lines. For instance, the empty lines can be filled via line doubling, which is quite easy to be implemented but the resulting image is not good enough in visual quality.
+
+In this homework, you are asked to implement the Edge-Based Line Average interpolation algorithm. As the direction of edge is considered, the de-interlaced image has a better quality than merely doubling the existing lines.
+
+>This ELA file have been uploaded before, but inside this file, there is a better and refined version. You may find two sets of code in the ELA main file. The presented one is better at saving power but a little bit larger; the hidden one (//) wasted too much energy on ALU.
